@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- green background before page loads image -->
   <header class="bg-success"
     style="height: 100vh; background-image: url(images/pexels-luis-felipe-alburquerque-briganti-5191975.jpg); background-size:cover; background-position: center;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-gradient bg">
@@ -74,10 +75,9 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="container bg-black py-4">
     <!-- carousel for jack vector/raster switch -->
-    <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center">
-      <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
+        <div id="carouselExampleInterval" class="carousel px-0 rounded-circle container-fluid"
         style="max-width: 250px; box-sizing: border-box;" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
@@ -89,26 +89,18 @@
               style="width: 250px; height: 250px;" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      <h2>Jack Habboosh</h2>
-      <p class="bg-success p-3 my-2 rounded rounded-3 border border-3 " style="max-width: 500px;">An Interactive Media
+      <!-- grouped for float right -->
+      <div>
+        <h2 class="text-white">Jack Habboosh</h2>
+        <p class="bg-success p-3 my-2 rounded rounded-3 border border-3" style="max-width: 500px;">An Interactive Media
         Design student with interests in Web Development, UX/UI Design, Digital Graphics & Laser Engraving. If you need
         to tackle a problem efficiently and creatively in a timely manner, then look no futher.</p>
-    </div>
+      </div>
     <!-- carousel for laser engraving -->
     <h2 class="text-center bg-success my-0 p-2 pb-3 text-white">Portfolio</h2>
     <!-- span of all portfolio carousels -->
-    <div class="container w-100 d-flex flex-column col-md-6">
+    <div class="container text-white w-100 d-flex flex-column col-md-6">
       <div class="portfolio portfolio-1">
         <h3 class="text-center pt-1">Laser Engraving</h3>
         <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
@@ -136,16 +128,6 @@
                   class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
         <!-- carousel for web dev -->
@@ -173,19 +155,8 @@
                     class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
           </div>
-
           <!-- carousel for UX/UI -->
           <div class="portfolio portfolio-3">
             <h3 class="text-center pt-1">Digital Graphics</h3>
@@ -195,16 +166,16 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="4000">
                     <img src="images/animalHybrid3.jpg"
-                      class="d-block w-100 rounded-circle border border-5 border-success" style="width: max-content;"
+                      class="d-block w-100 rounded-3 border border-5 border-success" style="width: max-content;"
                       alt="...">
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/photoRestoration.png"
-                      class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="...">
+                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="...">
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/scifiPoster.png"
-                      class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style=""
+                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style=""
                       alt="...">
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
@@ -214,20 +185,10 @@
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/pamphlet1.png"
-                      class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style=""
+                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style=""
                       alt="...">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
             </div>
           </div>
@@ -241,46 +202,23 @@
                   style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="4000">
-                      <img src="images/engrave1.jpg" class="d-block w-100 rounded-circle border border-5 border-success"
+                      <img src="images/Moodboard1.png" class="d-block w-100 rounded-3 border border-5 border-success"
                         style="width: max-content;" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
-                      <img src="images/engrave2.jpg"
-                        class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="...">
+                      <img src="images/Moodboard2.png"
+                        class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
-                      <img src="images/engrave3.jpg"
-                        class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style=""
-                        alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                      <img src="images/engrave4.jpg"
-                        class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style=""
-                        alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                      <img src="images/engrave5.jpg"
-                        class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style=""
+                      <img src="images/passionCakesHome.png"
+                        class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style=""
                         alt="...">
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
                 </div>
               </div>
-
             </div>
-
           </div>
-
   </main>
   <footer class="text-center bg-success text-white py-1 pt-3">
     <p>Copyright &copy; 2022 Jack Habboosh Creatives</p>
@@ -298,13 +236,12 @@
     border: 1em solid white;
     color: white;
   }
-
   a.ourServ:hover,
   a.ourServ:active {
     background-color: rgba(255, 255, 255, 0.4);
     border: 1em solid black;
     color: black;
   }
+  
 </style>
-
 </html>
