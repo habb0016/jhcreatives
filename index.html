@@ -8,7 +8,7 @@
     <title>JHC | Jack Habboosh Creatives</title>
 </head>
 <body>
-    <header class="bg-danger" style="height: 100vh; background-image: url(images/pexels-luis-felipe-alburquerque-briganti-5191975.jpg); background-size:cover; background-position: center;">
+    <header class="bg-success" style="height: 100vh; background-image: url(images/pexels-luis-felipe-alburquerque-briganti-5191975.jpg); background-size:cover; background-position: center;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-gradient bg">
             <div class="container-fluid">
               <a class="navbar-brand border px-2 py-1 border-2 rounded-3" style="font-weight: bold;" href="index.html">JHC</a>
@@ -55,18 +55,171 @@
             </div>
             <div class="container d-flex flex-column justify-content-center" style="height: 50vh; max-width: 450px;">
               <!-- center text on mobile and tablet -->
-              <p class="text-center bg-black p-4 mt-4 rounded-3 border border-2">Local Ottawa website & graphic designer, turning your vision into a reality. If you're new here, make sure to check out our <span class="text-light fw-bold border-bottom border-light">services</span> and <span class="text-success fw-bold border-bottom border-success">samples</span> below!</p>
+              <p class="text-center bg-black p-4 mt-4 rounded-3 border border-2">Local Ottawa website & graphic designer, looking for an excuse to be creative. If you're new here, be sure to check out <span class="text-light fw-bold border-bottom border-light">Our Services</span> and <span class="text-success fw-bold border-bottom border-success">Samples</span> below!</p>
               <span class="d-flex justify-content-around"><a href="#" class="btn fw-bold border-2 rounded-3 px-3 py-1 ourServ">Our Services</a><a href="#" class="btn btn-success border-none px-3 py-1">View Samples&ThinSpace;<i class="fa-solid fa-caret-right"></i></a></span>
             </div>
-            
           </div>
     </header>
     <main>
-      <div class="container-fluid bg-black py-2 text-light">
-        <h2>Here at JHC</h2>
-        <p style="max-width: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis incidunt consequatur voluptatum sequi provident culpa modi corporis, repellat molestias inventore quia ut suscipit eaque illo vero doloremque aut saepe tempora!
-        Amet iure obcaecati quas neque natus. Autem necessitatibus asperiores dolorum possimus tempora, quo consectetur quaerat? Doloremque, quae est. Consequuntur vero ut ea laudantium natus asperiores vitae et nihil rem quis.</p>
+      <!-- carousel for jack vector/raster switch -->
+      <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center">
+        <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle" style="max-width: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="images/LI-image.jpg" class="d-block w-100 rounded-3 border border-5 border-success" style="width: 250px; height: 250px;" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/jack-vector.svg" class="d-block p-4 bg-white rounded-3 border border-5 border-success" style="width: 250px; height: 250px;" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h2>Jack Habboosh</h2>
+        <p class="bg-success p-3 my-2 rounded rounded-3 border border-3 " style="max-width: 500px;">An Interactive Media Design student with interests in Web Development, UX/UI Design, Digital Graphics & Laser Engraving. If you need to tackle a problem efficiently and creatively in a timely manner, then look no futher.</p>
       </div>
+      <!-- carousel for laser engraving -->
+      <h2 class="text-center bg-success my-0 p-2 pb-3">Portfolio</h2>
+      <!-- span of all portfolio carousels -->
+      <span class="">
+        <div class="portfolio portfolio-1 ">
+          <h3 class="text-center pt-1">Laser Engraving</h3>
+          <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
+            <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle" style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="images/engrave1.jpg" class="d-block w-100 rounded-circle border border-5 border-success" style="width: max-content;" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave2.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave3.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave4.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave5.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+        <!-- carousel for web dev -->
+        <div class="portfolio portfolio-2">
+          <h3 class="text-center pt-1">Web Dev</h3>
+          <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
+            <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle" style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="images/engrave1.jpg" class="d-block w-100 rounded-circle border border-5 border-success" style="width: max-content;" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave2.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave3.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave4.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave5.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+
+        <!-- carousel for UX/UI -->
+        <div class="portfolio portfolio-3">
+          <h3 class="text-center pt-1">UX/UI Design</h3>
+          <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
+            <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle" style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="images/engrave1.jpg" class="d-block w-100 rounded-circle border border-5 border-success" style="width: max-content;" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave2.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave3.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave4.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave5.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+
+        <!-- carousel for digital graphics -->
+        <div class="portfolio portfolio-4">
+          <h3 class="text-center pt-1">Digital Graphics</h3>
+          <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
+            <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle" style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="images/engrave1.jpg" class="d-block w-100 rounded-circle border border-5 border-success" style="width: max-content;" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave2.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave3.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave4.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave5.jpg" class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+        
+      </span>
+      
     </main>
     <footer class="text-center bg-success text-white py-1 pt-3">
         <p>Copyright &copy; 2022 Jack Habboosh Creatives</p>
