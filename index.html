@@ -62,7 +62,7 @@
         <img class="img-fluid w-25 pt-2" src="images/jhc_logo.svg" alt="logo">
         <h1 class="text-center text-white pt-2 pb-4">Jack Habboosh Creatives</h1>
       </div>
-      <div class="container d-flex flex-column justify-content-center" style="height: 50vh; max-width: 450px;">
+      <div class="container d-flex flex-column justify-content-center" style="height: 90vh; max-width: 450px;">
         <!-- center text on mobile and tablet -->
         <p class="text-center bg-black p-4 mt-4 rounded-3 border border-2">Local Ottawa website & graphic designer,
           looking for an excuse to be creative. If you're new here, be sure to check out <span
@@ -75,9 +75,11 @@
       </div>
     </div>
   </header>
-  <main class="container bg-black py-4">
+  <main class="container-fluid bg-black py-4">
+    <!-- float right on md+ -->
+    <span class="d-md-flex justify-content-around p-4">
     <!-- carousel for jack vector/raster switch -->
-        <div id="carouselExampleInterval" class="carousel px-0 rounded-circle container-fluid"
+      <div id="carouselExampleInterval" class="carousel px-0 rounded-circle container-fluid"
         style="max-width: 250px; box-sizing: border-box;" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
@@ -91,12 +93,13 @@
         </div>
       </div>
       <!-- grouped for float right -->
-      <div>
-        <h2 class="text-white">Jack Habboosh</h2>
-        <p class="bg-success p-3 my-2 rounded rounded-3 border border-3" style="max-width: 500px;">An Interactive Media
-        Design student with interests in Web Development, UX/UI Design, Digital Graphics & Laser Engraving. If you need
-        to tackle a problem efficiently and creatively in a timely manner, then look no futher.</p>
+      <div class="text-center">
+        <h2 class="text-white pt-3 pb-0">Jack Habboosh</h2>
+        <p class="bg-success p-3 my-2 rounded rounded-3 border border-3 text-black fw-bold justify-content-center" style="max-width: 350px; margin: 0 auto;">An Interactive Media
+          Design student with interests in Web Development, UX/UI Design, Digital Graphics & Laser Engraving. If you need
+          to tackle a problem efficiently and creatively in a timely manner, then look no futher.</p>
       </div>
+    </span>
     <!-- carousel for laser engraving -->
     <h2 class="text-center bg-success my-0 p-2 pb-3 text-white">Portfolio</h2>
     <!-- span of all portfolio carousels -->
@@ -165,9 +168,8 @@
                 style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="4000">
-                    <img src="images/animalHybrid3.jpg"
-                      class="d-block w-100 rounded-3 border border-5 border-success" style="width: max-content;"
-                      alt="...">
+                    <img src="images/animalHybrid3.jpg" class="d-block w-100 rounded-3 border border-5 border-success"
+                      style="width: max-content;" alt="...">
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/photoRestoration.png"
@@ -175,8 +177,7 @@
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/scifiPoster.png"
-                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style=""
-                      alt="...">
+                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/vectormark.png"
@@ -185,8 +186,7 @@
                   </div>
                   <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/pamphlet1.png"
-                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style=""
-                      alt="...">
+                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
                   </div>
                 </div>
               </div>
@@ -211,8 +211,7 @@
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
                       <img src="images/passionCakesHome.png"
-                        class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style=""
-                        alt="...">
+                        class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
                     </div>
                   </div>
                 </div>
@@ -236,12 +235,13 @@
     border: 1em solid white;
     color: white;
   }
+
   a.ourServ:hover,
   a.ourServ:active {
     background-color: rgba(255, 255, 255, 0.4);
     border: 1em solid black;
     color: black;
   }
-  
 </style>
+
 </html>
