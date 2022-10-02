@@ -57,12 +57,12 @@
     <!-- container for hero elements -->
     <div class="text-white container d-flex flex-column">
       <!-- logo and h1 -->
-      <div class="d-flex flex-column align-items-center pt-4 container" style="background-color: rgba(0, 0, 0, 0.5);
-            border: 1px solid white; border-radius: 25px; margin-top: 3em; max-width: 696px;">
+      <div class="d-flex flex-column align-items-center pt-4 container" style="background-color: rgba(0, 0, 0, 0.5); border: 1px solid white; border-radius: 25px; margin-top: 3em; max-width: 696px;">
         <img class="img-fluid w-25 pt-2" src="images/jhc_logo.svg" alt="logo">
         <h1 class="text-center text-white pt-2 pb-4">Jack Habboosh Creatives</h1>
       </div>
-      <div class="container d-flex flex-column justify-content-center" style="height: 75vh; max-height: 60vh; max-width: 450px;">
+      <div class="container d-flex flex-column justify-content-center"
+        style="height: 75vh; max-height: 60vh; max-width: 450px;">
         <!-- center text on mobile and tablet -->
         <p class="text-center bg-black p-4 mt-4 rounded-3 border border-2">Local Ottawa website & graphic designer,
           looking for an excuse to be creative. If you're new here, be sure to check out <span
@@ -70,33 +70,35 @@
             class="text-success fw-bold border-bottom border-success">Samples</span> below!</p>
         <span class="d-flex justify-content-around"><a href="#"
             class="btn fw-bold border-2 rounded-3 px-3 py-1 ourServ">Our Services</a><a href="#"
-            class="btn btn-success border-none px-3 py-1">View Samples&ThinSpace;<i
-              class="fa-solid fa-caret-right"></i></a></span>
+            class="btn btn-success border-none px-3 py-1">View Samples &ThinSpace;<i class="fa-solid fa-caret-right"></i></a></span>
       </div>
     </div>
   </header>
   <main class="container-fluid bg-black py-4">
     <!-- float right on md+ -->
-    <span class="d-md-flex container align-self-center justify-content-sm-between justify-content-lg-center p-4" id="bio">
-    <!-- carousel for jack vector/raster switch -->
+    <span class="d-md-flex container align-self-center justify-content-sm-between justify-content-lg-center p-4"
+      id="bio">
+      <!-- carousel for jack vector/raster switch -->
       <div id="carouselExampleInterval" class="carousel px-0 rounded-circle container-fluid mx-sm-auto mx-lg-0"
         style="max-width: 250px; box-sizing: border-box;" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
             <img src="images/LI-image.jpg" class="d-block w-100 rounded-3 border border-5 border-success"
-              style="width: 250px; height: 250px;" alt="...">
+              style="width: 250px; height: 250px;" alt="Raster photo of Jack Habboosh">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
             <img src="images/jack-vector.svg" class="d-block p-4 bg-white rounded-3 border border-5 border-success"
-              style="width: 250px; height: 250px;" alt="...">
+              style="width: 250px; height: 250px;" alt="Vector image of Jack Habboosh">
           </div>
         </div>
       </div>
       <!-- grouped for float right -->
       <div class="text-center ms-4">
         <h2 class="text-white pt-3 pb-0 text-md-start">Jack Habboosh</h2>
-        <p class="bg-success p-3 my-2 rounded rounded-3 border border-3 text-black fw-bold justify-content-center" style="max-width: 350px; margin: 0 auto;">An Interactive Media
-          Design student with interests in Web Development, UX/UI Design, Digital Graphics & Laser Engraving. If you need
+        <p class="bg-success p-3 my-2 rounded rounded-3 border border-3 text-black fw-bold justify-content-center"
+          style="max-width: 350px; margin: 0 auto;">An Interactive Media
+          Design student with interests in Web Development, UX/UI Design, Digital Graphics & Laser Engraving. If you
+          need
           to tackle a problem efficiently and creatively in a timely manner, then look no futher.</p>
       </div>
     </span>
@@ -104,37 +106,43 @@
     <h2 class="text-center bg-success my-0 p-2 pb-3 text-white">Portfolio</h2>
     <!-- span of all portfolio carousels -->
     <div class="container text-white w-100 d-flex flex-column col-md-6">
-      <div class="portfolio portfolio-1">
-        <h3 class="text-center pt-1">Laser Engraving</h3>
-        <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
-          <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
-            style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <img src="images/engrave1.jpg" class="d-block w-100 rounded-circle border border-5 border-success"
-                  style="width: max-content;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img src="images/engrave2.jpg"
-                  class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img src="images/engrave3.jpg"
-                  class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img src="images/engrave4.jpg"
-                  class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img src="images/engrave5.jpg"
-                  class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style="" alt="...">
+      <div class="portfolio">
+        <div class="portfolio1">
+          <h3 class="text-center pt-1">Laser Engraving</h3>
+          <div class="container-fluid py-2 text-light d-flex flex-column align-items-center border border-4">
+            <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
+              style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="images/engrave1.jpg" class="d-block w-100 rounded-circle border border-5 border-success"
+                    style="width: max-content;" alt="Laser engraving piece on natural wood">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave2.jpg"
+                    class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100"
+                    alt="Laser engraved natural wood">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave3.jpg"
+                    class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100"
+                    alt="Vector image engraved on wood slice">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave4.jpg"
+                    class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100"
+                    alt="Laser engraved coaster">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="images/engrave5.jpg"
+                    class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100"
+                    alt="3 laser engraved pieces of wood">
+                </div>
               </div>
             </div>
           </div>
-        </div>
+      </div>
         <!-- carousel for web dev -->
-        <div class="portfolio portfolio-2">
+        <div class="portfolio2">
           <h3 class="text-center pt-1">Web Dev</h3>
           <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
             <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
@@ -142,82 +150,82 @@
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4000">
                   <img src="images/passioncakessuperimposed.png"
-                    class="d-block w-100 rounded-3 border border-5 border-success" style="" alt="...">
+                    class="d-block w-100 rounded-3 border border-5 border-success" alt="Passion Cakes demo superimposed">
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
                   <img src="images/fredsDinerSI.png"
                     class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100"
-                    style="aspect-ratio: 1.36;" alt="...">
+                    style="aspect-ratio: 1.36;" alt="Fred's Diner demo superimposed">
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
                   <img src="images/jhc_portfolio_webdev_II_superimposedd.png"
-                    class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
+                    class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="JHC old website - demo superimposed">
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
                   <img src="images/jhc_shopify_superimposed.png"
-                    class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
+                    class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="Shopify JHC demo superimposed">
                 </div>
               </div>
             </div>
           </div>
-          <!-- carousel for UX/UI -->
-          <div class="portfolio portfolio-3">
-            <h3 class="text-center pt-1">Digital Graphics</h3>
-            <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
-              <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
-                style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="4000">
-                    <img src="images/animalHybrid3.jpg" class="d-block w-100 rounded-3 border border-5 border-success"
-                      style="width: max-content;" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="4000">
-                    <img src="images/photoRestoration.png"
-                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="4000">
-                    <img src="images/scifiPoster.png"
-                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="4000">
-                    <img src="images/vectormark.png"
-                      class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" style=""
-                      alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="4000">
-                    <img src="images/pamphlet1.png"
-                      class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
-                  </div>
-                </div>
+      </div>
+      <!-- carousel for UX/UI -->
+      <div class="portfolio3">
+        <h3 class="text-center pt-1">Digital Graphics</h3>
+        <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
+          <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
+            style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="images/animalHybrid3.jpg" class="d-block w-100 rounded-3 border border-5 border-success"
+                  style="width: max-content;" alt="Animal hybrid - Digital graphics">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/photoRestoration.png"
+                  class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="Photo restoration - Digital graphics">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/scifiPoster.png"
+                  class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="Sci-fi poster - Digital graphics">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/vectormark.png"
+                  class="d-block p-0 bg-white rounded-circle border border-5 border-success w-100" alt="Vector face art - custom piece">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/pamphlet1.png"
+                  class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="Passion cakes pamphlet design">
               </div>
             </div>
           </div>
-          <div class="container">
-            <!-- carousel for digital graphics -->
-            <div class="portfolio portfolio-4 ">
-              <h3 class="text-center pt-1">UX/UI Design</h3>
-              <div
-                class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
-                <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
-                  style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="4000">
-                      <img src="images/Moodboard1.png" class="d-block w-100 rounded-3 border border-5 border-success"
-                        style="width: max-content;" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                      <img src="images/Moodboard2.png"
-                        class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                      <img src="images/passionCakesHome.png"
-                        class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" style="" alt="...">
-                    </div>
-                  </div>
-                </div>
+        </div>
+      </div>
+      <!-- carousel for digital graphics -->
+      <div class="portfolio4 ">
+        <h3 class="text-center pt-1">UX/UI Design</h3>
+        <div
+          class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
+          <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
+            style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="images/Moodboard1.png" class="d-block w-100 rounded-3 border border-5 border-success"
+                  style="width: max-content;" alt="Mooboard excercise for Government of Ontario">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/Moodboard2.png"
+                  class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="Moodboard exercise 2 for Gorvernment of Ontario">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/passionCakesHome.png"
+                  class="d-block p-0 bg-white rounded-3 border border-5 border-success w-100" alt="Passion cakes website screenshot">
               </div>
             </div>
           </div>
+        </div>
+      </div>
+        
+        
   </main>
   <footer class="text-center bg-success text-white py-1 pt-3">
     <p>Copyright &copy; 2022 Jack Habboosh Creatives</p>
@@ -235,13 +243,19 @@
     border: 1em solid white;
     color: white;
   }
-
   a.ourServ:hover,
   a.ourServ:active {
     background-color: rgba(255, 255, 255, 0.4);
     border: 1em solid black;
     color: black;
   }
-</style>
+  div.portfolio{
+    display: flex;
+    justify-content: space-between;
 
+  }
+  div.portfolio1, div.portfolio2, div.portfolio3, div.portfolio4{
+    display: inline;
+  }
+</style>
 </html>
