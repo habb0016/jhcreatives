@@ -106,6 +106,7 @@
     <h2 class="text-center bg-success my-0 p-2 pb-3 text-white">Portfolio</h2>
     <!-- span of all portfolio carousels -->
     <div class="container text-white w-100 d-flex flex-column col-md-6">
+      <hr>
       <div class="portfolio">
         <div class="portfolio1">
           <h3 class="text-center pt-1">Laser Engraving</h3>
@@ -145,7 +146,7 @@
         <div class="portfolio2">
           <h3 class="text-center pt-1">Web Dev</h3>
           <div class="container-fluid bg-black py-2 text-light d-flex flex-column align-items-center border border-4">
-            <div id="carouselExampleInterval" class="carousel m-4 mx-3 px-0 rounded-circle"
+            <div id="carouselWebdev" class="carousel px-0 rounded-circle"
               style="max-width: 250px; max-height: 250px; box-sizing: border-box;" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4000">
@@ -224,8 +225,18 @@
           </div>
         </div>
       </div>
-        
-        
+      </div>
+      <hr class="mt-4">
+      <div class="container bg-success">
+        <hr>
+        <div class="container bg-white p-4 text-black"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatibus possimus perferendis suscipit cum vitae eligendi incidunt fugiat tempora, velit sunt dolorem ducimus. Explicabo, fugit asperiores iusto consequatur at excepturi.</p>
+        <p>Qui non repudiandae alias molestiae enim, nisi obcaecati, sunt ab, atque ducimus iusto earum deleniti. Dolores illo dolorum temporibus tempora, rem asperiores enim autem cupiditate qui eligendi porro, tenetur neque.</p>
+        <p>Sunt expedita tempore et quaerat doloremque, minus nisi neque qui illum impedit modi tempora exercitationem, facilis eligendi labore at architecto quia dolorem quis optio, suscipit itaque. Amet eveniet dolorem delectus!</p>
+        <p>Consectetur tenetur, repellat velit enim aut quam saepe culpa impedit ut sequi voluptas officia, id adipisci earum at. Quibusdam cumque at assumenda illum ut laboriosam libero quod beatae ratione optio!</p>
+        <p>Ipsum incidunt ab eius, nemo quis error sunt nobis similique, accusamus ullam accusantium non ipsa maxime nostrum labore, ex cumque molestias obcaecati consectetur placeat numquam assumenda? Accusamus optio perspiciatis delectus?</p>
+        <p>Ipsum mollitia dolore impedit inventore non delectus facilis, debitis dolorum possimus tempore laboriosam ipsam eum eaque corporis atque obcaecati! Doloremque delectus incidunt et repudiandae quidem quibusdam ea accusamus ab adipisci?</p></div>
+        <hr>
+      </div>
   </main>
   <footer class="text-center bg-success text-white py-1 pt-3">
     <p>Copyright &copy; 2022 Jack Habboosh Creatives</p>
@@ -249,13 +260,55 @@
     border: 1em solid black;
     color: black;
   }
-  div.portfolio{
-    display: flex;
-    justify-content: space-between;
-
+   hr{
+    line-height: 2px;
+    color: white;
+    border: 1px solid white;
+    opacity: 75%;
   }
-  div.portfolio1, div.portfolio2, div.portfolio3, div.portfolio4{
-    display: inline;
+
+ 
+  /* small screens */
+  @media screen and (min-width: 576px) {
+    div.portfolio1, div.portfolio2, div.portfolio3, div.portfolio4{
+      display: inline;
+    }
+    #carouselWebdev{
+      margin: 12.5% 0;
+      padding: 0;
+      width: fit-content;
+    }
+  }
+  /* medium screens */
+  @media screen and (min-width: 768px) {
+    div.portfolio{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-gap: 1em;
+    }
+    #carouselWebdev{
+      margin: calc(20% - 4.5px) 0;
+    }
+  }
+  /* large screens */
+  @media screen and (min-width: 992px) {
+    div.portfolio{
+      display: flex;
+      justify-content: space-between;
+    }
+    #carouselWebdev{
+      margin: calc(25% - 1px) 0;
+    }
+  }
+  /* xl screens */
+  @media screen and (min-width: 1200px) {
+    #carouselWebdev{
+      margin: calc(25% - 4px) 0;
+    }
+  }
+  /* xxl screens */
+  @media screen and (min-width: 1400px) {
+    
   }
 </style>
 </html>
