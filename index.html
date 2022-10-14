@@ -14,7 +14,7 @@
   <!-- green background before page loads image -->
   <header class="bg-success"
     style="height: 100vh; background-image: url(images/pexels-samuel-bütikofer-5226950.jpg); background-size:cover; background-position: center;">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navigation">
       <div class="container-fluid">
         <a class="navbar-brand border px-2 py-1 border-2 rounded-3" style="font-weight: bold;" href="index.html">JHC</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -27,7 +27,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -35,16 +35,17 @@
                 Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Web Dev</a></li>
-                <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                <li><a class="dropdown-item" href="#webDev">Web Dev</a></li>
+                <li><a class="dropdown-item" href="#uxui">UX/UI Design</a></li>
+                <li><a class="dropdown-item" href="#graphicDesign">Graphic Design</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Laser Engraving</a></li>
+                <li><a class="dropdown-item" href="#laserEngraving">Laser Engraving</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contactForm">Contact</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -66,17 +67,17 @@
         <!-- center text on mobile and tablet -->
         <p class="text-center bg-black p-4 mt-4 rounded-3 border border-2">Local Ottawa website & graphic designer,
           looking for an excuse to be creative. If you're new here, be sure to check out <span
-            class="text-light fw-bold border-bottom border-light">Our Services</span> and <span
+            class="text-light fw-bold border-bottom border-light"> Our Services</span> and <span
             class="text-success fw-bold border-bottom border-success">Samples</span> below!</p>
-        <span class="d-flex justify-content-around"><a href="#"
-            class="btn fw-bold border-2 rounded-3 px-3 py-1 ourServ">Our Services</a><a href="#"
+        <span class="d-flex justify-content-around"><a href="#services"
+            class="btn fw-bold border-2 rounded-3 px-3 py-1 ourServ">Our Services</a><a href="#samples"
             class="btn btn-success border-none px-3 py-1">View Samples &ThinSpace;<i class="fa-solid fa-caret-right"></i></a></span>
       </div>
     </div>
   </header>
   <main class="container-fluid bg-black py-4">
     <!-- float right on md+ -->
-    <div class="container w-100 border-2 border" style="margin-top:4em; margin-bottom:5em; padding-top: 4em; padding-bottom: 3em;">
+    <div class="container w-100 border-2 border" id="about" style="margin-top:4em; margin-bottom:5em; padding-top: 4em; padding-bottom: 3em;">
     <span class="d-md-flex container align-self-center justify-content-sm-between justify-content-lg-center p-4 mb-3"
       id="bio">
       <!-- carousel for jack vector/raster switch -->
@@ -105,7 +106,7 @@
     </span>
   </div>
     <!-- carousel for laser engraving -->
-    <h2 class="text-center bg-success my-0 p-2 text-white mb-2">Portfolio</h2>
+    <h2 class="text-center bg-success my-0 p-2 text-white mb-2 " id="samples">Portfolio</h2>
     <!-- span of all portfolio carousels -->
     <div class="container text-white w-100 d-flex flex-column col-md-6">
       <div class="portfolio">
@@ -230,28 +231,28 @@
       <h2 class="text-center pt-3">WordPress, Drupal & Shopify Sites</h2>
       <div class="container border border-2 border-white col-lg-8 col-xl-7 col-xxl-6"><p class="p-3 pb-1">Need to convert your prototypes like psd or Xd to wordpress? We can help with that. Need graphics for your website? We can help with that to. Need someone to upload and manage content for your CMS? We got you covered!</p></div>
       <!-- green box with articles -->
-      <div class="container bg-success col-md-12 mt-4">
+      <div class="container bg-success col-md-12 mt-4" id="services">
         <hr>
         <div class="container bg-white p-4 text-black pb-4" style="margin-bottom: 1em; padding: 0%;">
           <div class="clearfix">
             <h2 style="text-decoration: underline green;">Products & Services</h2>
             <img class="img-fluid col-md-6 col-lg-4 float-md-end ms-md-4 rounded rounded-10 border border-4 border-dark" src="images/jhc_passion_cakes_superimposed.png" alt="">
-            <h3>Responsive Website Design/Redesign</h3>
+            <h3 id="webDev">Responsive Website Design/Redesign</h3>
             <p>Why create responsive and accessible websites? Because the experience matters. Visitors on your site will have a better experience, regardless of browsing device, accesibility needs or celurlar data limits. </p>
             <p>I am able to write your website in HTML, CSS and frameworks like BootStrap. In the planning stages, attention is paid to build the website in a uniform structure and style. This aproach allows for efficient modification of the code. The websites can be developed based on a prototype you provide or one that JHC creates for you.</p>
-            <h3>UX & UI Design</h3>
+            <h3 id="uxui">UX & UI Design</h3>
             <p>Whether you are looking to create low or high-fidelity prototypes for your app or website, there's something here for you. From paper prototypes and creative briefs, to high-fidelity interactive mockups; revive your look while keeping your brand or start fresh with a new look. We can help get the design that best suits your needs.</p>
             <p>In terms of starting material, you can come in with as little as some branding and answer some questions. From there plans and prototypes can be developed. If you already have everything and just need the mockup created, we can help there as well. We can help find media that reflects your website and even create our own custom media for your site including videos, photos and other graphics.</p>
-            <h3>Graphic Design</h3>
+            <h3 id="graphicDesign">Graphic Design</h3>
             <p>JHC does everything from logos to custom graphics for sites like Facebook and LinkedIn. If you need work done with raster images, vector images or a combination of the two, then look no futher. With many projects completed logo creation, app icons and custom website graphics, the possiblities are endless. We also offer services in raster image vectorization. If you see something that isn't listed here, contact us and make a custom request. Ask about our face art!</p>
-            <h3>Laser Engraving</h3>
+            <h3 id="laserEngraving">Laser Engraving</h3>
             <p>Custom laser engraving designs on wood, glass acrylic and more! We just replaced our laser engraving equipement and got new stock in. For all laser engraving requests, visit our online store to <a href="#">order engravings</a>. We offer face vectorization through photographs. For large engraving orders, kindly <a href="#">make a request</a> and contact ahead of time.</p>
           </div>    
       </div>
       <hr>
       </div>
       <!-- contact form -->
-      <form action="https://formspree.io/f/moqblpwa" method="POST" class="rendered-form p-4 border border-white border-3" style="margin-top: 3em; background: linear-gradient(45deg, black,black, #1ab36c, black, black);">
+      <form action="https://formsubmit.co/1b90ed1f24e57bf935422947de4bda06" method="POST" class="rendered-form p-4 border border-white border-3" style="margin-top: 3em; background: linear-gradient(45deg, black,black, #1ab36c, black, black);" id="contactForm">
         <h2 class="text-center">Get in touch!</h2>
         <div class="formbuilder-text form-group field-text-1665614436704">
             <label for="text-1665614436704" class="formbuilder-text-label">Name:<span class="formbuilder-required">*</span></label>
@@ -267,7 +268,8 @@
         </div>
         <div class="formbuilder-select form-group field-select-1665614800667">
             <label for="select-1665614800667" class="formbuilder-select-label">Message type:</label>
-            <select class="form-control" name="reason" id="messageType">
+            <!-- subject of email -->
+            <select class="form-control" name="_subject" id="messageType">
                 <option disabled="null" selected="null">--</option>
                 <option value="I need a quote (service)" id="select-1665614800667-0">I need a quote (services)</option>
                 <option value="I've got a question" id="select-1665614800667-1">I've got a question</option>
@@ -282,7 +284,12 @@
         <div class="formbuilder-button form-group field-button-1665616915884">
           <button type="submit" class="btn-default px-3 py-1 btn btn-light mt-4 rounded-1 text-white border-2 border-white bg-success" name="submit" access="false" id="send">Send</button>
         </div>
+        <input type="hidden" name="_next" value="https://jackhabbooshcreatives.com/">
+        <input type="hidden" name="_autoresponse" value="Thank you for getting in touch. We'll chat shortly!">
       </form>
+      <a class="top btn btn-success border-2 border-warning btn-lg" id="btn-back-to-top" href="#navigation">
+        <i class="fas fa-arrow-up"></i>
+      </a>
   </main>
   <footer class="text-center bg-success text-white py-1 pt-3">
     <p>Copyright &copy; 2022 Jack Habboosh Creatives</p>
@@ -294,6 +301,7 @@
   <script src="https://kit.fontawesome.com/6167e29d85.js" crossorigin="anonymous"></script>
 </body>
 <style>
+  html{scroll-behavior: smooth;}
   nav.navbar.navbar-expand-lg.navbar-dark{
     /* nav bar that fades out in the middle */
     background: linear-gradient(90deg,black, transparent, black);
@@ -319,6 +327,25 @@
   .backGreen{
     background-color: green;
   }
+  .top {
+  --offset: 1em; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: var(--offset);
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 200px;
+  height: 2.5em;
+  width: 2.5em;
+  white-space: nowrap;
+}
+
 
   /* small screens */
   @media screen and (min-width: 576px) {
